@@ -1,0 +1,82 @@
+*{
+    margin: 12px;
+    padding: 10px;
+}
+body{
+    font-family: fantasy;
+    background-image: url('pexels-jess-bailey-designs-1162519.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#heading{
+    font-size: 36px;
+    border: 2px;
+    border-radius: 3px;
+    background-color: blueviolet;
+    color: pink;
+    align-items: center;
+}
+.timer_box{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 550px;
+    font-size: 45px;
+    background-color: rgb(221, 192, 248);
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 2px blueviolet;
+    height: 200px;
+    width:440px
+}
+#hrs, #min, #sec, #pt1, #pt2{
+    margin-top: 70px;
+    align-content: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    margin-left: 550px;
+    background-color: rgb(221, 192, 248);
+    border: 2px;
+    border-radius: 5px;
+    box-shadow: 2px blueviolet;
+    height: 100px;
+    width:440px
+}
+#button1{
+    font-family: monospace;
+    font-size: 28px;
+    background-color: slateblue;
+    border-color: slateblue;
+    border-radius: 3px;
+    width: 150px;
+    box-shadow: 5px 5px 10px 2px rgb(137, 122, 230);
+}
+#button2{
+    font-family: monospace;
+    font-size: 28px;
+    background-color: slateblue;
+    border-color: slateblue;
+    border-radius: 3px;
+    width: 150px;
+    box-shadow: 5px 5px 10px 2px rgb(137, 122, 230);
+}
+#button3{
+    font-family: monospace;
+    font-size: 28px;
+    border-color: slateblue;
+    background-color: slateblue;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px 2px rgb(137, 122, 230);
+    width: 150px;
+}
+#button1:hover, #button2:hover, #button3:hover{
+    background-color: pink;
+    color: slateblue;
+    border-color: pink;
+    box-shadow: 5px 5px 10px 2px rgb(242, 145, 161);
+}
